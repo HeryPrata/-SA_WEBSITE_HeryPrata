@@ -1,0 +1,53 @@
+body{
+    /* MARGIN = ESPAÇAMENTO EXTERNO DOS ELEMENTOS */
+    /* PADDING = ESPACAMENTO DOS ELEMENTOS INTERNOS */
+    margin: 0px; 
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue
+    
+}
+
+
+h1{
+    /* FONT - WEIGHT = ESPESSURA DO TRACO */
+    font-weight:  200;
+}
+
+h2{    
+    font-weight:  600;
+}
+
+.bloco{
+
+    /* BORDA */
+    /* BORDER = BORDA DO ELEMENTO. SOLID = O ESTILO DA BORDA */
+    /* MARGIN RIGHT = CONTROLA QUANTO ESPACO VAZIO A NA DIREITA DO ELEMENTO */
+    /* BORDER RADIUS - ARREDONDAMENTO DAS BORDAS, QUANTOS MAIS PIXEIS MAIS ARREDONDA FICA. */
+    /* PADDING - ESPAÇO INTERNO ENTRE O CONTEÚDO E A BORDA */
+    background-color: #1E293B;
+    border: 1px solid;
+    padding: 1;
+    margin-top: 5px;
+    margin-right: 1px;
+    border-radius: 10px;
+    border-color: black;
+    
+}
+
+
+#aba-navegacao{
+
+    font-size: large;
+    font-weight: 100;
+    font-style: normal;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px; 
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
