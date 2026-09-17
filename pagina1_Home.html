@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Summer Beats Festival</title>
+    <!-- IMPORT ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- IMPORT DA FONTE VIA LINK -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    </style>
     <style>
         body{ background-color:#0F172A;}
     </style>
-
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -26,7 +31,7 @@
       <section class="bloco" id="aba-navegacao">
         <nav >
           <ul >
-            <li>Home - (Pagina Atual)</li>
+            <li> Home - (Pagina Atual)</li>
 
             <li>
               <a href="./pagina2_LineUp.html"> Line - Up </a>
@@ -42,37 +47,41 @@
 
     <main>
       <!-- Section = Usando para agrupar elementos para estilização, sem sentido semantico -->
-      <div class="= bloco">
-        <p>
-          O Summer Beats Festival é o maior
-          <strong> evento de música universitária </strong> da região, criado
-          para conectar a energia dos estudantes à diversidade de novos ritmos e
-          grandes espetáculos. Nascido no ambiente acadêmico, o festival celebra
-          a liberdade, a cultura urbana e a união entre diferentes tribos
-          através de uma experiência imersiva inesquecível. Com uma estrutura
-          pensada para o público jovem, a programação reúne artistas de
-          múltiplos gêneros musicais, mantendo um foco especial na cena do trap.
-          Do hip-hop ao alternativo, o evento destaca tanto os maiores nomes do
-          ritmo quanto novos talentos, promovendo uma grande celebração de
-          ritmo, rima e identidade.
-        </p>
+      <!--  DIV COM CLASS PAI = CRIADA PARA CONSEGUIR ALINHAR OS FILHOS (OS DOIS TEXTOS) USANDO O DISPLAY FLEX-->
+    <div class="pai-texto">
+        <div class="bloco" id = texto1>
+          <p>
+            O Summer Beats Festival é o maior
+            <strong> evento de música universitária </strong> da região, criado
+            para conectar a energia dos estudantes à diversidade de novos ritmos e
+            grandes espetáculos. Nascido no ambiente acadêmico, o festival celebra
+            a liberdade, a cultura urbana e a união entre diferentes tribos
+            através de uma experiência imersiva inesquecível. Com uma estrutura
+            pensada para o público jovem, a programação reúne artistas de
+            múltiplos gêneros musicais, mantendo um foco especial na cena do trap.
+            Do hip-hop ao alternativo, o evento destaca tanto os maiores nomes do
+            ritmo quanto novos talentos, promovendo uma grande celebração de
+            ritmo, rima e identidade. 
+          </p>
+          <br />
+        </div>
+        <div class="bloco" id = texto2>
+          <p>
+            O Summer Beats Festival foi projetado para oferecer uma experiência
+            completa ao público. No palco principal, a programação conta com um
+            line-up diversificado que reúne desde os maiores nomes do trap
+            nacional até as novas apostas da cena. Para garantir o conforto de
+            todos, o evento dispõe de uma estrutura ampla com múltiplos ambientes,
+            incluindo áreas de descanso, praça de alimentação e espaços
+            interativos. Pensando nos estudantes, oferecemos descontos e
+            benefícios exclusivos na compra dos ingressos, além de reforçar o
+            nosso compromisso com o meio ambiente por meio de ações de
+            sustentabilidade, como a distribuição de eco-copos colecionáveis e a
+            gestão consciente de resíduos durante todo o festival.
+          </p>
         <br />
-        <p>
-          O Summer Beats Festival foi projetado para oferecer uma experiência
-          completa ao público. No palco principal, a programação conta com um
-          line-up diversificado que reúne desde os maiores nomes do trap
-          nacional até as novas apostas da cena. Para garantir o conforto de
-          todos, o evento dispõe de uma estrutura ampla com múltiplos ambientes,
-          incluindo áreas de descanso, praça de alimentação e espaços
-          interativos. Pensando nos estudantes, oferecemos descontos e
-          benefícios exclusivos na compra dos ingressos, além de reforçar o
-          nosso compromisso com o meio ambiente por meio de ações de
-          sustentabilidade, como a distribuição de eco-copos colecionáveis e a
-          gestão consciente de resíduos durante todo o festival.
-        </p>
       </div>
-      <br />
-
+    </div>
       <h1>Diferenciais é Destaques</h1>
       <div class="bloco">
         <ul>
@@ -102,6 +111,7 @@
 
     <footer>
       <section class="bloco" id="rodape">
+
         <p>E-mail: contato@summerbeatsfestival.com.br</p>
 
         <p>Telefone: (11) 99876-5432</p>
