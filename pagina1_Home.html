@@ -15,11 +15,11 @@
     </style>
     <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
     <header>
       <h1><strong style="font-style: italic;"> Summer Beast Festival</strong></h1>
-      <br />
-      <section>
+      <section class="apresentacao">
         <h2>
           O Summer Beats é um festival de música voltado ao público jovem
           universitário.
@@ -27,10 +27,10 @@
         <h3>Conectando tribos, celebrando a música.</h3>
     </section>
       <br />
-      <!-- "Section" = servido para agrupar elementos com uma função semantica -->
-      <section class="bloco" id="aba-navegacao">
-        <nav >
-          <ul >
+      <!-- "DIV" = servido para agrupar elementos com uma função semantica -->
+      <div class="aba-navegacao">
+        <nav>
+          <ul>
             <li> Home - (Pagina Atual)</li>
 
             <li>
@@ -40,16 +40,19 @@
             <li>
               <a href="./pagina3_Portifolio.html"> Portifolio </a>
             </li>
+
+            <li>
+              <a href="./pagina4_FaleConosco.html"> Fale Conosco </a>
+            </li>
           </ul>
         </nav>
-      </section>
     </header>
 
-    <main>
-      <!-- Section = Usando para agrupar elementos para estilização, sem sentido semantico -->
+  <main>
+      <!-- SECTION = Usando para agrupar elementos para estilização, sem sentido semantico -->
       <!--  DIV COM CLASS PAI = CRIADA PARA CONSEGUIR ALINHAR OS FILHOS (OS DOIS TEXTOS) USANDO O DISPLAY FLEX-->
-    <div class="pai-texto">
-        <div class="bloco" id = texto1>
+    <section class="bloco">
+        <div class="pai-texto" id="texto1">
           <p>
             O Summer Beats Festival é o maior
             <strong> evento de música universitária </strong> da região, criado
@@ -65,7 +68,7 @@
           </p>
           <br />
         </div>
-        <div class="bloco" id = texto2>
+        <div class="filho-texto" id="texto2">
           <p>
             O Summer Beats Festival foi projetado para oferecer uma experiência
             completa ao público. No palco principal, a programação conta com um
@@ -83,7 +86,7 @@
       </div>
     </div>
       <h1>Diferenciais é Destaques</h1>
-      <div class="bloco">
+      <section class="bloco">
         <ul>
           <li>
             Line-up diversificado com palco principal focado nos maiores nomes do
@@ -106,18 +109,24 @@
           </li>
         </ul>
       </div>
-      <br />
-    </main>
+    </section>
+  </main>
 
-    <footer>
-      <section class="bloco" id="rodape">
+
+
+<footer>
+  <section class="bloco">
+    <div class="rodape">
+      <div class="rodape-fi">
 
         <p>E-mail: contato@summerbeatsfestival.com.br</p>
 
         <p>Telefone: (11) 99876-5432</p>
 
         <p>2026</p>
-     </section>
-    </footer>
-  </body>
+      </div>
+    </div>
+  </section>
+</footer>
+</body>
 </html>

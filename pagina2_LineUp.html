@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informações</title>
+    <!-- IMPORT ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- IMPORT DA FONTE VIA LINK -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    </style>
+    
+    <style>
+        body{ background-color:#0F172A;}
+    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
       <header>
             <h1> <strong> Summer Beast Festival</strong> </h1>
-            <br>
             <h2> O Summer Beats é um festival de música voltado ao público jovem universitário.</h2>
             <br>
-            <section class="bloco" id="aba-navegacao">
+            <div class="aba-navegacao">
                 <nav>
                     <ul>
                         <li>
@@ -25,15 +35,20 @@
                         <li>
                         <a href="./pagina3_Portifolio.html"> Portifolio </a>
                         </li>
+
+                        <li>
+                            <a href="./pagina4_FaleConosco.html"> Fale Conosco</a>
+                        </li>
                     </ul>
                 </nav>
-            </section>
-        </header>
+            </div>
+    </header>
 
-      <main>
-        <h1> Informações e Ingressos </h1>
-        <section class = bloco id="tabela-preco">
-            <table border="3px">
+<main>
+        <h1> Informações e Ingressos: </h1>
+    <section class = bloco>
+        <div class="tabela-preco">
+            <table border="5px">
                 <thead>
                     <tr>
                         <th>Item</th>
@@ -65,30 +80,39 @@
                         </tr>
                 </tbody>
             </table>
-        </section>
+        </div>
+    </section>
 
         <p>Achou caro = POBRE IMUNDO</p>
         <br>
-        <section class = bloco id="line-up">
-            <h1>Line - Up</h1>
-            <h2>Apresentamos Os HeadLine Do Nosso Festival</h2>
+         <h1>Line - Up</h1>
+        <h2>Apresentamos Os HeadLine Do Nosso Festival</h2>
+    <section class="line-up-Pai">
+        <div class="card-artista">
+                <img src="./Imagens/Carti.jpg" alt="Foto do artista Playboi Carti">
+                <h3>Playboi Carti</h3>
+                <p>I AM MUSIC</p>
+        </div>
 
-            <h3>Playboi Carti</h3>
-            <img src="./Imagens/Carti.jpg" alt="Foto do artista Playboi Carti">
-            <p>I AM MUSIC</p>
-
-            <h3>Rosalia</h3>
+        <div class="card-artista">
             <img src="./Imagens/Lux.jpg" alt ="Foto da artista Rosalia">
-            <p>UM ANJO NA TERRA</p>
+             <h3>Rosalía</h3>
+             <p>MOTOMAMI</p>
+        </div>
 
-            <h3>Kayne West</h3>
-            <img src="./Imagens/Ye.jpg" alt="Foto do artista Kanye West">
-            <p>I AM THE BEST RAPPER ALIVE</p>
+        <div class="card-artista">
+            <img src="./Imagens/collage,ye.jpg" alt="Foto do artista Kanye West">
+            <h3>Kanye West</h3>
+            <p>I AM GOD</p>
+        </div>
+    </section>
 
-            <h3>Line - Up completa dos tres dias do evento.</h3>
-
+</div>
+    <h3>Line - Up completa dos tres dias do evento.</h3>
+    <section class="line-upCompleta">
+            
+        <div class="dia-evento">
             <p>Dia 1</p>
-            <br>
             <ul>
                 <li>Playboi Carti</li>
                 <li>Ken Carson</li>
@@ -101,7 +125,9 @@
                 <li>Ryu The Runner</li>
                 <li>Dessik</li>
             </ul>
-            <br>
+        </div>
+            
+        <div class="dia-evento">
             <p>Dia 2</p>
             <ul>
                 <li>Rosalia</li>
@@ -115,7 +141,10 @@
                 <li>Taylor Swift</li>
                 <li>Tyla</li>
             </ul>
-            <br>
+        </div>
+
+            
+        <div class="dia-evento">
             <p>Dia 3</p>
             <ul>
                 <li>Kanye West</li>
@@ -129,18 +158,21 @@
                 <li>Yago Oproprio</li>
                 <li>Megan Thee Stallion</li>
             </ul>
-        </section>
-      </main>
+        </div>
+    </section>
+</main>
 
-      <footer>
-        <section class="bloco" id="rodape">
+<footer>
+    <section class="bloco">
+        <div class="rodape">
             <p>E-mail: contato@summerbeatsfestival.com.br</p>
             
             <p>Telefone: (11) 99876-5432</p>
             
             <p>2026</p>
-        </section>
-      </footer>
+        </div>
+    </section>
+</footer>
 </body>
 </html> 
 
