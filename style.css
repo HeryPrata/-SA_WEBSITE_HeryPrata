@@ -10,9 +10,7 @@
     background-attachment: fixed;
 }
 
-.bloco, 
-.card-artista, 
-.line-upCompleta-pai {
+.bloco, .card-artista, .line-upCompleta-pai {
     background-color: #1A162B;             /* Roxo escuro bem fechado */
     border: 1px solid #8B5CF6;              /* Borda roxa vibrante */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* Sombra para dar profundidade */
@@ -168,6 +166,9 @@ a:hover{
   list-style: none; 
   padding: 0; 
 }
+
+/* PAGINA 2 - LINE UP */
+
 /* LINE UP PAI = SEPARA OS CARDS DO ARTISTA EM COLUNAS USANDO O GRID */
 .line-up-Pai{
     display: grid;
@@ -236,4 +237,43 @@ a:hover{
 
 .dia-evento p::after{
     content: " - 🎶";
+}
+
+/* PORTIFILIO - CSS */
+.Portifolio{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    
+}
+
+.card-portifolio{
+    border: 2px solid;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    flex-direction: column;
+    
+}
+
+.card-portifolio img{
+    width: 100%;
+    aspect-ratio: 1/1;  
+    object-fit: cover;       
+    border-radius: 10px;      
+    margin-bottom: 20px;  
+    
+}
+
+.formulario{
+    display: block;
+    width: 200px;
+    height: 200px;
+
+}
+
+.formulario-filho{
+    border-radius: 12px;
 }
