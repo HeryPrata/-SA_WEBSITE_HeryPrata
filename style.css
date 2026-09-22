@@ -22,8 +22,6 @@
 }
 
 
-
-
 body{
     
     color: aliceblue;
@@ -55,6 +53,7 @@ apresentacao{
     
     padding: 20px;
     margin-top: 15px;
+    
     
 }
 
@@ -91,9 +90,22 @@ apresentacao{
     height: 5%;  /*ALTURA */
 }
 
+.apresentacao{
+    display: inline-block;  /* TEXTO UM BAIXO DO OUTRO*/
+    background-color: rgba(15, 23, 42, 0.78);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+    padding: 20px;
+    margin: 15px;
+    width: 100%;
+}
+
+
+
 /* LINKS JÁ VISITADOS */
 a:visited{
-    color: #00FF66;
+    color: #4eeb8c;
 }
 
 /* LINK QUE ESTA ATIVO */
@@ -110,6 +122,8 @@ a:hover{
 .rodape{
     display: flex;
     justify-content: space-between;
+    color: gold;
+    
 }
 
 .rodape-fi{
@@ -132,6 +146,7 @@ a:hover{
     border: 1px solid rgba(255, 255, 255, 0.12);
     padding: 15px;
     border-radius: 10px;
+    
 }
 
 .destaque-bloco{
@@ -144,11 +159,12 @@ a:hover{
     margin-top: 5px;
     margin-right: 1px;
     
+    
 }
 
 .bloco-filho{
     text-align: right;
-
+    
 }
 
 .aba-navegacao nav {
